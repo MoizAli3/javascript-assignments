@@ -121,4 +121,60 @@ document.write("division of" + num1 + "and" + num2 + "is" + division);
 var remainder = num1 % num2;
 document.write("Remainder" + num1 + "and" + num2 + "is" + remainder);
 
-// Question No # 03
+// Question No # 03'
+
+let arr = [
+    []
+]
+
+arr = [
+    [0,1,2,3],
+    [1,1,0,1],
+    [2,1,1,0],
+]
+
+
+for(let i=0; i<=10; i++){
+    console.log(i);
+}
+
+
+let number = +prompt("Enter Your Multiplication");
+let number2 = +prompt("Enter Your Length");
+for(let i=1; i<=number2; i++)
+    console.log(`${number} x ${i} = ${number * i}`);
+
+let  fruits = ["apple", "banana" ,"mango","orange","strawberry"];
+
+for(let i=0; i<fruits.length; i++){
+console.log(fruits[i]);
+}
+
+for(let i=0; i<fruits.length; i++){
+    console.log(`Element at index ${i} is ${fruits[i]}`);
+}
+
+let arr2 = [];
+
+for(let i=1; i<=15; i++){
+    arr2.push(i);
+}
+
+for(let i=15; i>=0; i--){
+    arr2.push(i);
+}
+
+for(let i=1; i<=10; i++){
+    arr2.push(i*2);
+}
+
+for(let i=1; i<=10; i++){
+    arr2.push(i*3);
+}
+
+for(let i=1; i<=10; i++){
+    arr2.push((i*2)+"k");
+}
+
+console.log(arr2);
+
