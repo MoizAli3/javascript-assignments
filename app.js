@@ -411,7 +411,4 @@ document
     displayRecords();
   });
 
-// Display the records on page load
-window.onload = function () {
-  displayRecords();
-};
+// Question No # 03
